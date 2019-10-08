@@ -157,3 +157,19 @@
   white-space: normal;
   margin-bottom: 75px;
 }
+
+/* footer */
+#footer {
+  background: #D5D5D5;
+  height: 50px;
+}
+#footer .inner {
+  padding-top: 17px;
+  text-align: center;
+}
+#footer p {
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
