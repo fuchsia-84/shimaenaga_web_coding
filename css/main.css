@@ -10,7 +10,9 @@
     clear: both;
     display: block;
 }
-
+ * {
+  font-family:"游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
+ }
 /* header */
 #header {
   width: 100%;
@@ -173,6 +175,8 @@
 #footer p {
   font-size: 12px;
   line-height: 15px;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック", "Yu Gothic", "游ゴシック体", sans-serif;
   color: #ffffff;
 }
 
