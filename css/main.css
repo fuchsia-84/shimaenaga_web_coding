@@ -54,6 +54,8 @@
   height: 600px;
   background: url(../img/header.jpg);
   background-size: cover;
+  background-position-y: 60px;
+  background-position: center;
   padding-top: 60px;
 }
 
