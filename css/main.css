@@ -179,6 +179,12 @@
   display: block;
   width: 980px;
 }
+@media screen and (max-width: 991px) {
+  #ability .inner, #about .inner {
+    display: block;
+    width: 100%;
+  }
+}
 /* ability */
 #ability {
   background: #ffffff;
@@ -226,6 +232,34 @@
 #ability .ability_content p {
   font-size: 20px;
   line-height: 34px;
+}
+@media screen and (max-width: 991px) {
+  #ability .inner {
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+  #ability .content_title {
+    width: 211px;
+    font-size: 41px;
+    line-height: 70px;
+  }
+  #ability .container {
+    margin-top: 50px;
+  }
+  #ability .ability_content {
+    display: block;
+    width: 100%;
+    padding-bottom: 70px;
+  }
+  #ability .ability_content img {
+    width: 300px;
+  }
+  #ability .ability_content h1 {
+    margin-top: 20px;
+  }
+  #ability .ability_content p {
+    margin-top: 20px;
+  }
 }
 
 /* about */
