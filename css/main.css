@@ -189,6 +189,20 @@
     top: 15px;
     left: calc((100% - 200px )/2);
   }
+  /* Toggle Button */
+  #nav_toggle {
+    left: 20px;
+  }
+  /* #nav_toggle 切り替えアニメーション */
+  .open #nav_toggle span:nth-child(1) {
+    left: 14px;
+  }
+  .open #nav_toggle span:nth-child(2) {
+    left: 14px;
+  }
+  .open #nav_toggle span:nth-child(3) {
+    left: 14px;
+  }
 }
 
 /* top */
