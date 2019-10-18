@@ -423,6 +423,17 @@
     top: 0;
   }
 }
+@media screen and (max-width: 767px) {
+  #about img {
+    display: none;
+  }
+  #about .height_fix:before {
+    padding-top: 0;
+  }
+  #about .about_content_l p {
+    margin: 40px 0;
+  }
+}
 
 /* footer */
 #footer {
