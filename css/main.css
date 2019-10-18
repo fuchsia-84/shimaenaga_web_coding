@@ -304,6 +304,17 @@
     margin-top: 20px;
   }
 }
+@media screen and (max-width: 767px) {
+  #ability .container {
+    width: 100%;
+    margin-top: 50px;
+  }
+  #ability .ability_content {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 70px;
+  }
+}
 
 /* about */
 #about {
