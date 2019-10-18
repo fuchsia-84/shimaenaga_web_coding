@@ -305,6 +305,9 @@
   }
 }
 @media screen and (max-width: 767px) {
+  #ability .inner {
+    padding-bottom: 99px;
+  }
   #ability .container {
     width: 100%;
     margin-top: 50px;
@@ -312,7 +315,21 @@
   #ability .ability_content {
     display: inline-block;
     width: 100%;
-    padding-bottom: 70px;
+    padding-bottom: 0;
+  }
+  /* flickity custom */
+  #ability .flickity-page-dots {
+    bottom: -42px;
+  }
+  #ability .flickity-page-dots .dot {
+    width: 14px;
+    height: 14px;
+    opacity: 1;
+    background: transparent;
+    border: 3px solid #51A2BC;
+  }
+  #ability .flickity-page-dots .dot.is-selected {
+    background: #51A2BC;
   }
 }
 
