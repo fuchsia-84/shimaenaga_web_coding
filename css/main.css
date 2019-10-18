@@ -183,6 +183,13 @@
     visibility: visible;
   }
 }
+@media screen and (max-width: 767px) {
+  #header .header_logo {
+    width: 200px;
+    top: 15px;
+    left: calc((100% - 200px )/2);
+  }
+}
 
 /* top */
 #top {
