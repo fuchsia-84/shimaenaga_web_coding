@@ -20,6 +20,8 @@ Web上で配布された制作課題を元に作成しました。
 
 ## 成果物
 
+![shimaenaga_responsive](https://user-images.githubusercontent.com/46129202/141031986-d5fac403-d1bf-4901-b1f4-c53593d1e029.png)
+
 ## 開発環境
 
 - Mac Book Air
